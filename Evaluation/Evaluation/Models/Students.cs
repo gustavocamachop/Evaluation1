@@ -2,6 +2,10 @@
 using System.ComponentModel.DataAnnotations;
 namespace Evaluation.Models
 {
+    public enum TypeGender
+    {Hombre,
+        Mujer
+    }
     public class Students
     {
         [Key]
@@ -9,7 +13,7 @@ namespace Evaluation.Models
         [Required]
         public string Name { get; set; }
         [Required]
-        public string Gender { get; set; }
+        public TypeGender Gender { get; set; }
         [Required]
         public string Birthday { get; set; }
         [Required]
