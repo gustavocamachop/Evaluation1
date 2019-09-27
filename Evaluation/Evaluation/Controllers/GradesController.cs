@@ -17,7 +17,7 @@ namespace Evaluation.Controllers
         // GET: Grades
         public ActionResult Index()
         {
-            var grades = db.Grades.Include(g => g.Student);
+            var grades = db.Grades.Include(g => g.Students);
             return View(grades.ToList());
         }
 
