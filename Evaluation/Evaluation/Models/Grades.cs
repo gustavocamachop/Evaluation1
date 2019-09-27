@@ -15,7 +15,7 @@ namespace Evaluation.Models
         [Required]
         public string Status { get; set; }
         [Required]
-        public Students Student { get; set; }
+        public Students Students { get; set; }
     }
 
 }

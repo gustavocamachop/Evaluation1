@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webEval", "Evaluation\webEval.csproj", "{9014FFE2-578F-4787-8D2E-B42344FB1796}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiEvalu", "apiEvalu\apiEvalu.csproj", "{C14A2264-3840-45FA-95FC-736DB7C27649}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9014FFE2-578F-4787-8D2E-B42344FB1796}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9014FFE2-578F-4787-8D2E-B42344FB1796}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9014FFE2-578F-4787-8D2E-B42344FB1796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C14A2264-3840-45FA-95FC-736DB7C27649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14A2264-3840-45FA-95FC-736DB7C27649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14A2264-3840-45FA-95FC-736DB7C27649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14A2264-3840-45FA-95FC-736DB7C27649}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

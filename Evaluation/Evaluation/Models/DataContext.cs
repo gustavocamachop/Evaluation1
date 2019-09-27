@@ -8,5 +8,9 @@ namespace Evaluation.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<Evaluation.Models.Students> Students { get; set; }
+
+        public System.Data.Entity.DbSet<Evaluation.Models.Grades> Grades { get; set; }
     }
 }
